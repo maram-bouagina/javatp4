@@ -21,7 +21,7 @@ public class Dictionnaire {
 			String mot=s.nextLine();
 			Dict[i].setMot(mot);
 			System.out.println("donner une definition");
-			String defi=s.nextLine();
+			String defi=s.nextLine(); 
 			Dict[i].setDefinition(defi);
 		}
 	}

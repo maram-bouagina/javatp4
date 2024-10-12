@@ -20,7 +20,7 @@ public class dictmain {
 		System.out.println("commencement de la fction Supprimer_Mot");
 		d.Supprimer_Mot(md2); 
 		d. Lister_dictionnaire ();
-		String ch=d.Recherche_dicho("s");
+		String ch=d.Recherche_dicho("s"); 
 		System.out.println("la definition :"+ch);
 		int n=d.Nombre_synonyme(md1);
 		System.out.println("le nombre des synonymes est "+n);
